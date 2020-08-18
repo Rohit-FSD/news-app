@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import alanBtn from "@alan-ai/alan-sdk-web";
 import wordsToNumbers from "words-to-numbers";
+import { Typography } from "@material-ui/core";
 
 import NewsCards from "./components/NewsCards/NewsCards";
 import useStyles from "./styles";
@@ -51,6 +52,13 @@ const App = () => {
         />
       </div>
       <NewsCards articles={newsArticles} activeArticle={activeArticle} />
+      <div className={classes.footer}>
+        <Typography variant="body1" component="h2">
+          <strong style={{ fontFamily: "Poppins, sans-serif" }}>
+            Version 1.0.0
+          </strong>
+        </Typography>
+      </div>
     </div>
   );
 };
