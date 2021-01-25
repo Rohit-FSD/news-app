@@ -1,3 +1,5 @@
+<h4>Deployed on : https://news-app-10.netlify.app/ </h4>
+<hr>
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
